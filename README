@@ -1,10 +1,10 @@
-A simple python script to create a mosaic. 
+A simple python script to create a mosaic.
 
 Here's a sample command:
 
-python -i input_image.jpg -s my_directory_of_images_to_make_mosaic_out_of -r 10 10 -t 20 20 -v -a
+python mosaic.py -i input_image.jpg -s my_directory_of_images_to_make_mosaic_out_of -r 10 10 -t 20 20 -v -a
 
-This will make a mosaic out of input_image.jpg using the images in my_directory_of_images_to_make_mosaic_out_of. 
+This will make a mosaic out of input_image.jpg using the images in my_directory_of_images_to_make_mosaic_out_of.
 It will analyze 10x10 boxes in input_image.jpg for the closest match in the directory of images. In the mosaic,
-it will save 20x20 image thumbnails. Thus, the output image will be bigger than the input image (by 2x in each 
-dimension). 
+it will save 20x20 image thumbnails. Thus, the output image will be bigger than the input image (by 2x in each
+dimension).
